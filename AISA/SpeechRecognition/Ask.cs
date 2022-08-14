@@ -15,5 +15,15 @@ namespace AISA.SpeechRecognition
                 "What's the weather like in New York?"
             };
         }
+
+        public static string[] Get()
+        {
+            return new string[]
+            {
+                "What's the news about tech lately?"
+            }
+        };
+
+
     }
 }
